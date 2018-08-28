@@ -1,0 +1,576 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="951735392">
+	<ID>
+		<cGUID>
+			<UUID>
+				<e d:type="sUInt64">5154376738659141861</e>
+				<e d:type="sUInt64">10547971494485378965</e>
+			</UUID>
+			<DevString d:type="cDeltaString">b25088e5-0655-4788-9547-bf4d30ec6192</DevString>
+		</cGUID>
+	</ID>
+	<String/>
+	<DisplayName>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">Quick Drive Scenario</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">e2239a3b-5ba8-4ea0-a80c-286dcf5ca2d1</Key>
+		</Localisation-cUserLocalisedString>
+	</DisplayName>
+	<Description>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">You are in Quick Drive where a path has been set to your final destination.  On the way you are free to perform other actions, such as picking up passengers.  This Quick Drive scenario will complete when you have stopped at your final destination.</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">28a14b05-cc5e-4dc7-8a87-6fa8fe676bc1</Key>
+		</Localisation-cUserLocalisedString>
+	</Description>
+	<Briefing>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString">You are in Quick Drive where a path has been set to your final destination.  On the way you are free to perform other actions, such as picking up passengers.  This Quick Drive scenario will complete when you have stopped at your final destination.</English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">b2d7fbff-1d9f-40c7-b028-6197dae3a076</Key>
+		</Localisation-cUserLocalisedString>
+	</Briefing>
+	<StartLocation>
+		<Localisation-cUserLocalisedString>
+			<English d:type="cDeltaString"></English>
+			<French d:type="cDeltaString"></French>
+			<Italian d:type="cDeltaString"></Italian>
+			<German d:type="cDeltaString"></German>
+			<Spanish d:type="cDeltaString"></Spanish>
+			<Dutch d:type="cDeltaString"></Dutch>
+			<Polish d:type="cDeltaString"></Polish>
+			<Russian d:type="cDeltaString"></Russian>
+			<Other/>
+			<Key d:type="cDeltaString">e6e79cd0-3fa3-44f0-a62b-fc0fdf76d242</Key>
+		</Localisation-cUserLocalisedString>
+	</StartLocation>
+	<ScenarioClass d:type="cDeltaString">eStandardScenarioClass</ScenarioClass>
+	<StartTime d:type="sFloat32" d:alt_encoding="0000000000A2C240" d:precision="string">9540</StartTime>
+	<DurationMins d:type="sInt32">0</DurationMins>
+	<StartDD d:type="sInt32">1</StartDD>
+	<StartMM d:type="sInt32">10</StartMM>
+	<StartYYYY d:type="sInt32">2008</StartYYYY>
+	<Season d:type="cDeltaString">SEASON_AUTUMN</Season>
+	<WeatherBlueprint>
+		<iBlueprintLibrary-cAbsoluteBlueprintID>
+			<BlueprintSetID>
+				<iBlueprintLibrary-cBlueprintSetID>
+					<Provider d:type="cDeltaString">Kuju</Provider>
+					<Product d:type="cDeltaString">RailSimulatorCore</Product>
+				</iBlueprintLibrary-cBlueprintSetID>
+			</BlueprintSetID>
+			<BlueprintID d:type="cDeltaString">Weather\RW_Night_Overcast.xml</BlueprintID>
+		</iBlueprintLibrary-cAbsoluteBlueprintID>
+	</WeatherBlueprint>
+	<WeatherExtensionBlueprint>
+		<iBlueprintLibrary-cAbsoluteBlueprintID>
+			<BlueprintSetID>
+				<iBlueprintLibrary-cBlueprintSetID>
+					<Provider d:type="cDeltaString"></Provider>
+					<Product d:type="cDeltaString"></Product>
+				</iBlueprintLibrary-cBlueprintSetID>
+			</BlueprintSetID>
+			<BlueprintID d:type="cDeltaString"></BlueprintID>
+		</iBlueprintLibrary-cAbsoluteBlueprintID>
+	</WeatherExtensionBlueprint>
+	<Rating d:type="sInt32">1</Rating>
+	<LocoClass d:type="cDeltaString">LOCO_NO_CLASS</LocoClass>
+	<HasRollingStart d:type="bool">0</HasRollingStart>
+	<LoadedFromRollingStart d:type="bool">0</LoadedFromRollingStart>
+	<FrontEndDriverList>
+		<sDriverFrontEndDetails d:id="1604243128">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">CD 750 118-2</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">028307ed-9805-406c-b115-71daadc7a2c4</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">CD 750 118-2</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">3919596e-3ad9-423a-8e33-ea3dea61739c</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">CS_addon</Provider>
+							<Product d:type="cDeltaString">OJanis</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">MotoroveLokomotivy\CD750118\CD750118.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Ostruzna - kolej 1</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">dffbcc89-d314-49d5-865a-ba945bb7e397</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">CS_addon</LocoAuthor>
+			<FilePath d:type="cDeltaString">CS_addon\OJanis\MotoroveLokomotivy\CD750118</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="00000020000D3140" d:precision="string">17.0508</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="000000C081174940" d:precision="string">50.1836</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="0000002077508640" d:precision="string">714.058</Height>
+			<PlayerDriver d:type="bool">1</PlayerDriver>
+		</sDriverFrontEndDetails>
+	</FrontEndDriverList>
+	<RequiredSet>
+		<iBlueprintLibrary-cBlueprintSetID d:id="702507704">
+			<Provider d:type="cDeltaString">CS_addon</Provider>
+			<Product d:type="cDeltaString">Kebarko</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="702507712">
+			<Provider d:type="cDeltaString">CS_addon</Provider>
+			<Product d:type="cDeltaString">OJanis</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="702507720">
+			<Provider d:type="cDeltaString">CS_addon</Provider>
+			<Product d:type="cDeltaString">Pikku</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="702507728">
+			<Provider d:type="cDeltaString">CZ_objects</Provider>
+			<Product d:type="cDeltaString">CD_Addon</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="702507736">
+			<Provider d:type="cDeltaString">Hekl</Provider>
+			<Product d:type="cDeltaString">RailVehicles</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="702507744">
+			<Provider d:type="cDeltaString">Kank</Provider>
+			<Product d:type="cDeltaString">Nakladni vozy</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="702507752">
+			<Provider d:type="cDeltaString">Sasule</Provider>
+			<Product d:type="cDeltaString">CS_Addon</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+	</RequiredSet>
+	<Gizmo>
+		<d:nil/>
+	</Gizmo>
+	<SimulationTime d:type="sFloat32" d:alt_encoding="0000000000000000" d:precision="string">0</SimulationTime>
+	<AuthoredLanguage d:type="cDeltaString">en</AuthoredLanguage>
+	<Version d:type="sFloat32" d:alt_encoding="000000000000F03F" d:precision="string">1</Version>
+	<Author d:type="cDeltaString"></Author>
+	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
+	<RBlueprintSetPreLoad>
+		<iBlueprintLibrary-cBlueprintSetID d:id="712924696">
+			<Provider d:type="cDeltaString">Kank</Provider>
+			<Product d:type="cDeltaString">Nakladni vozy</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+	</RBlueprintSetPreLoad>
+	<NamedEntity/>
+	<Condition/>
+	<DeferredEvent/>
+	<CheckedCondition/>
+	<CareerRules>
+		<d:nil/>
+	</CareerRules>
+	<MD5 d:type="cDeltaString">C2F14EEC6E9587507CE4FC57309ED668</MD5>
+	<MessageEvent/>
+	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
+	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
+	<LocksScenario/>
+	<StartDestString/>
+	<TemplateStartDestMapping>
+		<sTemplateStartDestMapping d:id="956675928">
+			<PropertyPairGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4766268744886809372</e>
+						<e d:type="sUInt64">8978482748636172966</e>
+					</UUID>
+					<DevString d:type="cDeltaString">b306731c-302b-4225-a692-6e667dfa997c</DevString>
+				</cGUID>
+			</PropertyPairGUID>
+			<StartNameUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5222854568436726983</e>
+						<e d:type="sUInt64">11935120053646444471</e>
+					</UUID>
+					<DevString d:type="cDeltaString">e1327cc7-4e8e-487b-b7c7-3c2d7410a2a5</DevString>
+				</cGUID>
+			</StartNameUID>
+			<HasOverheadWires d:type="bool">0</HasOverheadWires>
+			<Has3rdRail d:type="bool">0</Has3rdRail>
+			<Has4thRail d:type="bool">0</Has4thRail>
+			<Latitude d:type="sFloat64" d:alt_encoding="3A234A7B83174940" d:precision="string">50.1837</Latitude>
+			<Longitude d:type="sFloat64" d:alt_encoding="3EE8D9ACFA0C3140" d:precision="string">17.0507</Longitude>
+			<Height d:type="sFloat32" d:alt_encoding="00000000814D8640" d:precision="string">713.688</Height>
+			<DestinationNameUIDs>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4896531112727523734</e>
+						<e d:type="sUInt64">14830781882269988777</e>
+					</UUID>
+					<DevString d:type="cDeltaString">a5c5b196-f91a-43f3-a977-008a8b85d1cd</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5073760685801480474</e>
+						<e d:type="sUInt64">5578029727453603003</e>
+					</UUID>
+					<DevString d:type="cDeltaString">388a211a-9e76-4669-bbe4-70c37b24694d</DevString>
+				</cGUID>
+			</DestinationNameUIDs>
+			<DestinationDistance>
+				<e d:type="sFloat32" d:alt_encoding="000000E0519F9640" d:precision="string">1447.83</e>
+				<e d:type="sFloat32" d:alt_encoding="000000E0BA3AB440" d:precision="string">5178.73</e>
+			</DestinationDistance>
+		</sTemplateStartDestMapping>
+		<sTemplateStartDestMapping d:id="956674680">
+			<PropertyPairGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5125929494017034563</e>
+						<e d:type="sUInt64">4691846366162685622</e>
+					</UUID>
+					<DevString d:type="cDeltaString">6a954943-f5b7-4722-b68e-d55b69c91c41</DevString>
+				</cGUID>
+			</PropertyPairGUID>
+			<StartNameUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5286659810654578490</e>
+						<e d:type="sUInt64">10640499842551130813</e>
+					</UUID>
+					<DevString d:type="cDeltaString">7e66673a-fd16-495d-bd2a-dc233ba6aa93</DevString>
+				</cGUID>
+			</StartNameUID>
+			<HasOverheadWires d:type="bool">0</HasOverheadWires>
+			<Has3rdRail d:type="bool">0</Has3rdRail>
+			<Has4thRail d:type="bool">0</Has4thRail>
+			<Latitude d:type="sFloat64" d:alt_encoding="B1E1E995B20C4940" d:precision="string">50.0992</Latitude>
+			<Longitude d:type="sFloat64" d:alt_encoding="5A643BDF4FFD3040" d:precision="string">16.9895</Longitude>
+			<Height d:type="sFloat32" d:alt_encoding="0000004033F17C40" d:precision="string">463.075</Height>
+			<DestinationNameUIDs>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5014997453758077671</e>
+						<e d:type="sUInt64">1248762036272581034</e>
+					</UUID>
+					<DevString d:type="cDeltaString">14bd1ae7-d99d-4598-aa49-05ad747e5411</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5222854568436726983</e>
+						<e d:type="sUInt64">11935120053646444471</e>
+					</UUID>
+					<DevString d:type="cDeltaString">e1327cc7-4e8e-487b-b7c7-3c2d7410a2a5</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4896531112727523734</e>
+						<e d:type="sUInt64">14830781882269988777</e>
+					</UUID>
+					<DevString d:type="cDeltaString">a5c5b196-f91a-43f3-a977-008a8b85d1cd</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5073760685801480474</e>
+						<e d:type="sUInt64">5578029727453603003</e>
+					</UUID>
+					<DevString d:type="cDeltaString">388a211a-9e76-4669-bbe4-70c37b24694d</DevString>
+				</cGUID>
+			</DestinationNameUIDs>
+			<DestinationDistance>
+				<e d:type="sFloat32" d:alt_encoding="000000002913B640" d:precision="string">5651.16</e>
+				<e d:type="sFloat32" d:alt_encoding="000000A05948C440" d:precision="string">10384.7</e>
+				<e d:type="sFloat32" d:alt_encoding="000000004032C740" d:precision="string">11876.5</e>
+				<e d:type="sFloat32" d:alt_encoding="00000040B37BCE40" d:precision="string">15607.4</e>
+			</DestinationDistance>
+		</sTemplateStartDestMapping>
+		<sTemplateStartDestMapping d:id="956675256">
+			<PropertyPairGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5758005294914632676</e>
+						<e d:type="sUInt64">18287027565901538719</e>
+					</UUID>
+					<DevString d:type="cDeltaString">fa347be4-8b4e-4fe8-9f65-56afae92c8fd</DevString>
+				</cGUID>
+			</PropertyPairGUID>
+			<StartNameUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5014997453758077671</e>
+						<e d:type="sUInt64">1248762036272581034</e>
+					</UUID>
+					<DevString d:type="cDeltaString">14bd1ae7-d99d-4598-aa49-05ad747e5411</DevString>
+				</cGUID>
+			</StartNameUID>
+			<HasOverheadWires d:type="bool">0</HasOverheadWires>
+			<Has3rdRail d:type="bool">0</Has3rdRail>
+			<Has4thRail d:type="bool">0</Has4thRail>
+			<Latitude d:type="sFloat64" d:alt_encoding="34A2B437F8124940" d:precision="string">50.1482</Latitude>
+			<Longitude d:type="sFloat64" d:alt_encoding="4F401361C3033140" d:precision="string">17.0147</Longitude>
+			<Height d:type="sFloat32" d:alt_encoding="00000040E1348240" d:precision="string">582.61</Height>
+			<DestinationNameUIDs>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5222854568436726983</e>
+						<e d:type="sUInt64">11935120053646444471</e>
+					</UUID>
+					<DevString d:type="cDeltaString">e1327cc7-4e8e-487b-b7c7-3c2d7410a2a5</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4896531112727523734</e>
+						<e d:type="sUInt64">14830781882269988777</e>
+					</UUID>
+					<DevString d:type="cDeltaString">a5c5b196-f91a-43f3-a977-008a8b85d1cd</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5073760685801480474</e>
+						<e d:type="sUInt64">5578029727453603003</e>
+					</UUID>
+					<DevString d:type="cDeltaString">388a211a-9e76-4669-bbe4-70c37b24694d</DevString>
+				</cGUID>
+			</DestinationNameUIDs>
+			<DestinationDistance>
+				<e d:type="sFloat32" d:alt_encoding="000000200538B240" d:precision="string">4664.02</e>
+				<e d:type="sFloat32" d:alt_encoding="000000C0CC0BB840" d:precision="string">6155.8</e>
+				<e d:type="sFloat32" d:alt_encoding="000000801D4BC340" d:precision="string">9878.23</e>
+			</DestinationDistance>
+		</sTemplateStartDestMapping>
+		<sTemplateStartDestMapping d:id="956674776">
+			<PropertyPairGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4773543347233270249</e>
+						<e d:type="sUInt64">7518731791941280689</e>
+					</UUID>
+					<DevString d:type="cDeltaString">0bc4a9e9-0862-423f-b1a3-1894bae65768</DevString>
+				</cGUID>
+			</PropertyPairGUID>
+			<StartNameUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5750873718362578165</e>
+						<e d:type="sUInt64">15896934279206596774</e>
+					</UUID>
+					<DevString d:type="cDeltaString">6b219cf5-352d-4fcf-a6f0-d65980419ddc</DevString>
+				</cGUID>
+			</StartNameUID>
+			<HasOverheadWires d:type="bool">0</HasOverheadWires>
+			<Has3rdRail d:type="bool">0</Has3rdRail>
+			<Has4thRail d:type="bool">0</Has4thRail>
+			<Latitude d:type="sFloat64" d:alt_encoding="F0A7C64B37094940" d:precision="string">50.072</Latitude>
+			<Longitude d:type="sFloat64" d:alt_encoding="CBA145B6F3ED3040" d:precision="string">16.9295</Longitude>
+			<Height d:type="sFloat32" d:alt_encoding="0000004062A07840" d:precision="string">394.024</Height>
+			<DestinationNameUIDs>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5286659810654578490</e>
+						<e d:type="sUInt64">10640499842551130813</e>
+					</UUID>
+					<DevString d:type="cDeltaString">7e66673a-fd16-495d-bd2a-dc233ba6aa93</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5014997453758077671</e>
+						<e d:type="sUInt64">1248762036272581034</e>
+					</UUID>
+					<DevString d:type="cDeltaString">14bd1ae7-d99d-4598-aa49-05ad747e5411</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5222854568436726983</e>
+						<e d:type="sUInt64">11935120053646444471</e>
+					</UUID>
+					<DevString d:type="cDeltaString">e1327cc7-4e8e-487b-b7c7-3c2d7410a2a5</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4896531112727523734</e>
+						<e d:type="sUInt64">14830781882269988777</e>
+					</UUID>
+					<DevString d:type="cDeltaString">a5c5b196-f91a-43f3-a977-008a8b85d1cd</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5073760685801480474</e>
+						<e d:type="sUInt64">5578029727453603003</e>
+					</UUID>
+					<DevString d:type="cDeltaString">388a211a-9e76-4669-bbe4-70c37b24694d</DevString>
+				</cGUID>
+			</DestinationNameUIDs>
+			<DestinationDistance>
+				<e d:type="sFloat32" d:alt_encoding="00000020C53FB440" d:precision="string">5183.77</e>
+				<e d:type="sFloat32" d:alt_encoding="00000040734AC540" d:precision="string">10900.9</e>
+				<e d:type="sFloat32" d:alt_encoding="000000004089CE40" d:precision="string">15634.5</e>
+				<e d:type="sFloat32" d:alt_encoding="0000004093B9D040" d:precision="string">17126.3</e>
+				<e d:type="sFloat32" d:alt_encoding="000000C04C5ED440" d:precision="string">20857.2</e>
+			</DestinationDistance>
+		</sTemplateStartDestMapping>
+		<sTemplateStartDestMapping d:id="956674488">
+			<PropertyPairGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5413676694283150177</e>
+						<e d:type="sUInt64">15781690304144862612</e>
+					</UUID>
+					<DevString d:type="cDeltaString">438ee361-3e45-4b21-94ed-c775b7d303db</DevString>
+				</cGUID>
+			</PropertyPairGUID>
+			<StartNameUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5752557183509934300</e>
+						<e d:type="sUInt64">7792278106803599504</e>
+					</UUID>
+					<DevString d:type="cDeltaString">b13b30dc-3047-4fd5-90f8-1423a7bb236c</DevString>
+				</cGUID>
+			</StartNameUID>
+			<HasOverheadWires d:type="bool">0</HasOverheadWires>
+			<Has3rdRail d:type="bool">0</Has3rdRail>
+			<Has4thRail d:type="bool">0</Has4thRail>
+			<Latitude d:type="sFloat64" d:alt_encoding="B1E1E995B20C4940" d:precision="string">50.0992</Latitude>
+			<Longitude d:type="sFloat64" d:alt_encoding="5A643BDF4FFD3040" d:precision="string">16.9895</Longitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000E0F9F67C40" d:precision="string">463.436</Height>
+			<DestinationNameUIDs/>
+			<DestinationDistance/>
+		</sTemplateStartDestMapping>
+		<sTemplateStartDestMapping d:id="956677272">
+			<PropertyPairGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5389663609133570506</e>
+						<e d:type="sUInt64">13773814829560628133</e>
+					</UUID>
+					<DevString d:type="cDeltaString">314199ca-ee7f-4acb-a503-f8559c6b26bf</DevString>
+				</cGUID>
+			</PropertyPairGUID>
+			<StartNameUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4803811560110885582</e>
+						<e d:type="sUInt64">11863476406002152126</e>
+					</UUID>
+					<DevString d:type="cDeltaString">88530ace-9129-42aa-be72-fc94ef88a3a4</DevString>
+				</cGUID>
+			</StartNameUID>
+			<HasOverheadWires d:type="bool">0</HasOverheadWires>
+			<Has3rdRail d:type="bool">0</Has3rdRail>
+			<Has4thRail d:type="bool">0</Has4thRail>
+			<Latitude d:type="sFloat64" d:alt_encoding="36AB3E575B094940" d:precision="string">50.0731</Latitude>
+			<Longitude d:type="sFloat64" d:alt_encoding="AEB6627FD9ED3040" d:precision="string">16.9291</Longitude>
+			<Height d:type="sFloat32" d:alt_encoding="0000002083B07840" d:precision="string">395.032</Height>
+			<DestinationNameUIDs>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5286659810654578490</e>
+						<e d:type="sUInt64">10640499842551130813</e>
+					</UUID>
+					<DevString d:type="cDeltaString">7e66673a-fd16-495d-bd2a-dc233ba6aa93</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5693152813817297522</e>
+						<e d:type="sUInt64">6469430106924383405</e>
+					</UUID>
+					<DevString d:type="cDeltaString">0f987a72-2452-4f02-adfc-71de6708c859</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5222854568436726983</e>
+						<e d:type="sUInt64">11935120053646444471</e>
+					</UUID>
+					<DevString d:type="cDeltaString">e1327cc7-4e8e-487b-b7c7-3c2d7410a2a5</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4896531112727523734</e>
+						<e d:type="sUInt64">14830781882269988777</e>
+					</UUID>
+					<DevString d:type="cDeltaString">a5c5b196-f91a-43f3-a977-008a8b85d1cd</DevString>
+				</cGUID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">5521820544173373709</e>
+						<e d:type="sUInt64">14475462396649120443</e>
+					</UUID>
+					<DevString d:type="cDeltaString">70e8790d-7287-4ca1-bba2-cbff5a2ce3c8</DevString>
+				</cGUID>
+			</DestinationNameUIDs>
+			<DestinationDistance>
+				<e d:type="sFloat32" d:alt_encoding="00000060260FB440" d:precision="string">5135.15</e>
+				<e d:type="sFloat32" d:alt_encoding="000000602632C540" d:precision="string">10852.3</e>
+				<e d:type="sFloat32" d:alt_encoding="000000A0D96CCE40" d:precision="string">15577.7</e>
+				<e d:type="sFloat32" d:alt_encoding="0000004073ADD040" d:precision="string">17077.8</e>
+				<e d:type="sFloat32" d:alt_encoding="000000A0994CD440" d:precision="string">20786.4</e>
+			</DestinationDistance>
+		</sTemplateStartDestMapping>
+	</TemplateStartDestMapping>
+	<IsTemplateGenerated d:type="bool">1</IsTemplateGenerated>
+	<TemplateScenarioGUID>
+		<cGUID>
+			<UUID>
+				<e d:type="sUInt64">5496294378186830407</e>
+				<e d:type="sUInt64">10379236504091531926</e>
+			</UUID>
+			<DevString d:type="cDeltaString">c8cd7247-c29d-4c46-969a-24e29b740a90</DevString>
+		</cGUID>
+	</TemplateScenarioGUID>
+	<WorkshopId d:type="sUInt64">0</WorkshopId>
+	<WorkshopBy d:type="sUInt64">0</WorkshopBy>
+	<WorkshopTags d:type="cDeltaString"></WorkshopTags>
+	<StartInCab d:type="bool">0</StartInCab>
+	<IsClonedDLC d:type="bool">0</IsClonedDLC>
+	<StartLongitude d:type="sFloat64" d:alt_encoding="3EE8D9ACFA0C3140" d:precision="string">17.0507</StartLongitude>
+	<StartLatitude d:type="sFloat64" d:alt_encoding="3A234A7B83174940" d:precision="string">50.1837</StartLatitude>
+	<StartHeight d:type="sFloat32" d:alt_encoding="00000000814D8640" d:precision="string">713.688</StartHeight>
+	<QuickDriveStartName d:type="cDeltaString">Ostruzna</QuickDriveStartName>
+	<QuickDriveEndName d:type="cDeltaString">Horni Lipova</QuickDriveEndName>
+	<QuickDrivePlayerConsistName d:type="cDeltaString">CD 750 118-2 + Os (854+054)</QuickDrivePlayerConsistName>
+</cScenarioProperties>
