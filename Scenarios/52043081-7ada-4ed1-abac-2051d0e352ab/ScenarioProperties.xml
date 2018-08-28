@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="902900096">
+<cScenarioProperties xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="708807120">
 	<ID>
 		<cGUID>
 			<UUID>
-				<e d:type="sUInt64">4907028064751976352</e>
-				<e d:type="sUInt64">5534984514318984078</e>
+				<e d:type="sUInt64">5679455683188371585</e>
+				<e d:type="sUInt64">12345180012429749419</e>
 			</UUID>
-			<DevString d:type="cDeltaString">be69ffa0-4406-4419-8e63-45151737d04c</DevString>
+			<DevString d:type="cDeltaString">52043081-7ada-4ed1-abac-2051d0e352ab</DevString>
 		</cGUID>
 	</ID>
 	<String/>
 	<DisplayName>
 		<Localisation-cUserLocalisedString>
-			<English d:type="cDeltaString">Free roam - Ramzova</English>
+			<English d:type="cDeltaString">Free roam - Horni Lipova</English>
 			<French d:type="cDeltaString"></French>
 			<Italian d:type="cDeltaString"></Italian>
 			<German d:type="cDeltaString"></German>
@@ -21,12 +21,12 @@
 			<Polish d:type="cDeltaString"></Polish>
 			<Russian d:type="cDeltaString"></Russian>
 			<Other/>
-			<Key d:type="cDeltaString">dc6e2732-c81f-4b56-b363-8fafa110269c</Key>
+			<Key d:type="cDeltaString">0a19b108-2463-4b3c-96cc-6ec0edab66a4</Key>
 		</Localisation-cUserLocalisedString>
 	</DisplayName>
 	<Description>
 		<Localisation-cUserLocalisedString>
-			<English d:type="cDeltaString">Dest, Jaro,  16:00</English>
+			<English d:type="cDeltaString">Podzim, Mlha, 15:30</English>
 			<French d:type="cDeltaString"></French>
 			<Italian d:type="cDeltaString"></Italian>
 			<German d:type="cDeltaString"></German>
@@ -35,7 +35,7 @@
 			<Polish d:type="cDeltaString"></Polish>
 			<Russian d:type="cDeltaString"></Russian>
 			<Other/>
-			<Key d:type="cDeltaString">a6c7f28f-8438-4706-b33f-9fbbc567790c</Key>
+			<Key d:type="cDeltaString">8adfbdf7-e624-447b-b4ef-91490110b5ab</Key>
 		</Localisation-cUserLocalisedString>
 	</Description>
 	<Briefing>
@@ -49,7 +49,7 @@
 			<Polish d:type="cDeltaString"></Polish>
 			<Russian d:type="cDeltaString"></Russian>
 			<Other/>
-			<Key d:type="cDeltaString">f0d3b38d-06d7-44ec-9866-178e1bb9b266</Key>
+			<Key d:type="cDeltaString">c406a1b5-f93c-48bd-9849-71d1aaaa1e21</Key>
 		</Localisation-cUserLocalisedString>
 	</Briefing>
 	<StartLocation>
@@ -63,16 +63,16 @@
 			<Polish d:type="cDeltaString"></Polish>
 			<Russian d:type="cDeltaString"></Russian>
 			<Other/>
-			<Key d:type="cDeltaString">d1a9b3c6-4760-4ef4-9733-4618d29e8abe</Key>
+			<Key d:type="cDeltaString">6affc983-85ac-47f2-a7ff-2884398de833</Key>
 		</Localisation-cUserLocalisedString>
 	</StartLocation>
 	<ScenarioClass d:type="cDeltaString">eFreeRoamScenarioClass</ScenarioClass>
-	<StartTime d:type="sFloat32" d:alt_encoding="0000000000C3EE40" d:precision="string">63000</StartTime>
+	<StartTime d:type="sFloat32" d:alt_encoding="00000000003FEB40" d:precision="string">55800</StartTime>
 	<DurationMins d:type="sInt32">0</DurationMins>
-	<StartDD d:type="sInt32">21</StartDD>
-	<StartMM d:type="sInt32">6</StartMM>
-	<StartYYYY d:type="sInt32">2008</StartYYYY>
-	<Season d:type="cDeltaString">SEASON_SUMMER</Season>
+	<StartDD d:type="sInt32">1</StartDD>
+	<StartMM d:type="sInt32">7</StartMM>
+	<StartYYYY d:type="sInt32">2010</StartYYYY>
+	<Season d:type="cDeltaString">SEASON_AUTUMN</Season>
 	<WeatherBlueprint>
 		<iBlueprintLibrary-cAbsoluteBlueprintID>
 			<BlueprintSetID>
@@ -81,7 +81,7 @@
 					<Product d:type="cDeltaString">Trat292</Product>
 				</iBlueprintLibrary-cBlueprintSetID>
 			</BlueprintSetID>
-			<BlueprintID d:type="cDeltaString">Weather\jasno.xml</BlueprintID>
+			<BlueprintID d:type="cDeltaString">Weather\mlhy.xml</BlueprintID>
 		</iBlueprintLibrary-cAbsoluteBlueprintID>
 	</WeatherBlueprint>
 	<WeatherExtensionBlueprint>
@@ -95,74 +95,12 @@
 			<BlueprintID d:type="cDeltaString"></BlueprintID>
 		</iBlueprintLibrary-cAbsoluteBlueprintID>
 	</WeatherExtensionBlueprint>
-	<Rating d:type="sInt32">3</Rating>
+	<Rating d:type="sInt32">1</Rating>
 	<LocoClass d:type="cDeltaString">LOCO_NO_CLASS</LocoClass>
 	<HasRollingStart d:type="bool">0</HasRollingStart>
 	<LoadedFromRollingStart d:type="bool">0</LoadedFromRollingStart>
 	<FrontEndDriverList>
-		<sDriverFrontEndDetails d:id="1228165384">
-			<ServiceName>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString">Service7</English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">169c2b67-8352-49a0-9d46-ab9210c9b230</Key>
-				</Localisation-cUserLocalisedString>
-			</ServiceName>
-			<LocoName>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString">CD 750 022-6</English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">20af3302-aa7a-4976-858a-4194fa93c02c</Key>
-				</Localisation-cUserLocalisedString>
-			</LocoName>
-			<LocoBP>
-				<iBlueprintLibrary-cAbsoluteBlueprintID>
-					<BlueprintSetID>
-						<iBlueprintLibrary-cBlueprintSetID>
-							<Provider d:type="cDeltaString">CS_addon</Provider>
-							<Product d:type="cDeltaString">OJanis</Product>
-						</iBlueprintLibrary-cBlueprintSetID>
-					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">MotoroveLokomotivy\CD750022\CD750022.xml</BlueprintID>
-				</iBlueprintLibrary-cAbsoluteBlueprintID>
-			</LocoBP>
-			<StartLocation>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString"></English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">bc09b19c-70be-4397-8612-074a9d4f899d</Key>
-				</Localisation-cUserLocalisedString>
-			</StartLocation>
-			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
-			<LocoAuthor d:type="cDeltaString">CS_addon</LocoAuthor>
-			<FilePath d:type="cDeltaString">CS_addon\OJanis\MotoroveLokomotivy\CD750022</FilePath>
-			<Longitude d:type="sFloat64" d:alt_encoding="00000020D4153140" d:precision="string">17.0853</Longitude>
-			<Latitude d:type="sFloat64" d:alt_encoding="00000020B71C4940" d:precision="string">50.2243</Latitude>
-			<Height d:type="sFloat32" d:alt_encoding="0000002052F78240" d:precision="string">606.915</Height>
-			<PlayerDriver d:type="bool">0</PlayerDriver>
-		</sDriverFrontEndDetails>
-		<sDriverFrontEndDetails d:id="1228168640">
+		<sDriverFrontEndDetails d:id="1204217120">
 			<ServiceName>
 				<Localisation-cUserLocalisedString>
 					<English d:type="cDeltaString">Service6</English>
@@ -174,12 +112,12 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">bc702164-f066-4d85-b242-4090b4b1da95</Key>
+					<Key d:type="cDeltaString">3e378926-70e6-46dd-8093-4b246b9f42da</Key>
 				</Localisation-cUserLocalisedString>
 			</ServiceName>
 			<LocoName>
 				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString"></English>
+					<English d:type="cDeltaString">CDC 750 103-4</English>
 					<French d:type="cDeltaString"></French>
 					<Italian d:type="cDeltaString"></Italian>
 					<German d:type="cDeltaString"></German>
@@ -188,23 +126,23 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">51e7c48b-1c12-452c-bc9c-41832d2ac8aa</Key>
+					<Key d:type="cDeltaString">151b835e-f9d0-47b0-8fcd-f3b6d6157b54</Key>
 				</Localisation-cUserLocalisedString>
 			</LocoName>
 			<LocoBP>
 				<iBlueprintLibrary-cAbsoluteBlueprintID>
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
-							<Provider d:type="cDeltaString">Smejki</Provider>
-							<Product d:type="cDeltaString">CD714</Product>
+							<Provider d:type="cDeltaString">CS_addon</Provider>
+							<Product d:type="cDeltaString">OJanis</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">RailVehicles\MotoroveLokomotivy\CD714203\CD714203.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">MotoroveLokomotivy\CDC750103\CDC750103.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</LocoBP>
 			<StartLocation>
 				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString"></English>
+					<English d:type="cDeltaString">Hanusovice - Kolej 8</English>
 					<French d:type="cDeltaString"></French>
 					<Italian d:type="cDeltaString"></Italian>
 					<German d:type="cDeltaString"></German>
@@ -213,18 +151,18 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">7d26e9cf-0ad2-4ec3-849b-5ab8e239aecb</Key>
+					<Key d:type="cDeltaString">459ac11d-b67a-4908-ab42-d45572ddab25</Key>
 				</Localisation-cUserLocalisedString>
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
-			<LocoAuthor d:type="cDeltaString">Smejki</LocoAuthor>
-			<FilePath d:type="cDeltaString">Smejki\CD714\RailVehicles\MotoroveLokomotivy\CD714203</FilePath>
-			<Longitude d:type="sFloat64" d:alt_encoding="00000060AF053140" d:precision="string">17.0222</Longitude>
-			<Latitude d:type="sFloat64" d:alt_encoding="0000006018144940" d:precision="string">50.157</Latitude>
-			<Height d:type="sFloat32" d:alt_encoding="000000E03E208340" d:precision="string">612.031</Height>
+			<LocoAuthor d:type="cDeltaString">CS_addon</LocoAuthor>
+			<FilePath d:type="cDeltaString">CS_addon\OJanis\MotoroveLokomotivy\CDC750103</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="00000060E5ED3040" d:precision="string">16.9293</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="0000004029094940" d:precision="string">50.0716</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="0000008055B17840" d:precision="string">395.083</Height>
 			<PlayerDriver d:type="bool">0</PlayerDriver>
 		</sDriverFrontEndDetails>
-		<sDriverFrontEndDetails d:id="1228162720">
+		<sDriverFrontEndDetails d:id="1204217416">
 			<ServiceName>
 				<Localisation-cUserLocalisedString>
 					<English d:type="cDeltaString">Service5</English>
@@ -236,69 +174,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">1e2705c3-5f29-46d7-9b52-ebc089925efd</Key>
-				</Localisation-cUserLocalisedString>
-			</ServiceName>
-			<LocoName>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString"></English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">1a9ed572-8f55-47ab-80a6-df8c4c59bc6b</Key>
-				</Localisation-cUserLocalisedString>
-			</LocoName>
-			<LocoBP>
-				<iBlueprintLibrary-cAbsoluteBlueprintID>
-					<BlueprintSetID>
-						<iBlueprintLibrary-cBlueprintSetID>
-							<Provider d:type="cDeltaString">Smejki</Provider>
-							<Product d:type="cDeltaString">CD714</Product>
-						</iBlueprintLibrary-cBlueprintSetID>
-					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">RailVehicles\MotoroveLokomotivy\CD714203\CD714203.xml</BlueprintID>
-				</iBlueprintLibrary-cAbsoluteBlueprintID>
-			</LocoBP>
-			<StartLocation>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString"></English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">ce8680c7-2700-4032-8e6d-0a85cdcc00eb</Key>
-				</Localisation-cUserLocalisedString>
-			</StartLocation>
-			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
-			<LocoAuthor d:type="cDeltaString">Smejki</LocoAuthor>
-			<FilePath d:type="cDeltaString">Smejki\CD714\RailVehicles\MotoroveLokomotivy\CD714203</FilePath>
-			<Longitude d:type="sFloat64" d:alt_encoding="0000000071213140" d:precision="string">17.1306</Longitude>
-			<Latitude d:type="sFloat64" d:alt_encoding="00000020381D4940" d:precision="string">50.2283</Latitude>
-			<Height d:type="sFloat32" d:alt_encoding="00000000A43A8040" d:precision="string">519.33</Height>
-			<PlayerDriver d:type="bool">0</PlayerDriver>
-		</sDriverFrontEndDetails>
-		<sDriverFrontEndDetails d:id="1228162424">
-			<ServiceName>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString">Service4</English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">cbf2de75-2c16-40ad-a14a-67908837face</Key>
+					<Key d:type="cDeltaString">2db8e42a-aa7d-46ee-8957-9eb4d1ac746b</Key>
 				</Localisation-cUserLocalisedString>
 			</ServiceName>
 			<LocoName>
@@ -312,7 +188,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">96a9c7d0-7ccf-4d77-8719-e249df28b9f3</Key>
+					<Key d:type="cDeltaString">8dd90a1d-64b1-4444-b5dd-e41d440f3b65</Key>
 				</Localisation-cUserLocalisedString>
 			</LocoName>
 			<LocoBP>
@@ -324,130 +200,6 @@
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
 					<BlueprintID d:type="cDeltaString">MotoroveLokomotivy\CD749008\cd749008.xml</BlueprintID>
-				</iBlueprintLibrary-cAbsoluteBlueprintID>
-			</LocoBP>
-			<StartLocation>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString">Hanusovice - Kolej 2</English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">66c604be-f96e-4144-92c5-18360b7d42c7</Key>
-				</Localisation-cUserLocalisedString>
-			</StartLocation>
-			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
-			<LocoAuthor d:type="cDeltaString">CS_addon</LocoAuthor>
-			<FilePath d:type="cDeltaString">CS_addon\Pikku\MotoroveLokomotivy\CD749008</FilePath>
-			<Longitude d:type="sFloat64" d:alt_encoding="00000000E8ED3040" d:precision="string">16.9293</Longitude>
-			<Latitude d:type="sFloat64" d:alt_encoding="0000000051094940" d:precision="string">50.0728</Latitude>
-			<Height d:type="sFloat32" d:alt_encoding="000000A09BB57840" d:precision="string">395.35</Height>
-			<PlayerDriver d:type="bool">0</PlayerDriver>
-		</sDriverFrontEndDetails>
-		<sDriverFrontEndDetails d:id="1228163016">
-			<ServiceName>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString">Service2</English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">693a93fd-4679-42c1-8dae-01fa836e5fb4</Key>
-				</Localisation-cUserLocalisedString>
-			</ServiceName>
-			<LocoName>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString">CDC 751 145-4</English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">891f0ec2-1f9f-4e0e-abea-491a76a39bd5</Key>
-				</Localisation-cUserLocalisedString>
-			</LocoName>
-			<LocoBP>
-				<iBlueprintLibrary-cAbsoluteBlueprintID>
-					<BlueprintSetID>
-						<iBlueprintLibrary-cBlueprintSetID>
-							<Provider d:type="cDeltaString">CS_addon</Provider>
-							<Product d:type="cDeltaString">Pikku</Product>
-						</iBlueprintLibrary-cBlueprintSetID>
-					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">MotoroveLokomotivy\CDC751145\CDC751145.xml</BlueprintID>
-				</iBlueprintLibrary-cAbsoluteBlueprintID>
-			</LocoBP>
-			<StartLocation>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString">Hanusovice - Kolej 6</English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">9e307128-e21c-450a-bfd0-987bd2742d38</Key>
-				</Localisation-cUserLocalisedString>
-			</StartLocation>
-			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
-			<LocoAuthor d:type="cDeltaString">CS_addon</LocoAuthor>
-			<FilePath d:type="cDeltaString">CS_addon\Pikku\MotoroveLokomotivy\CDC751145</FilePath>
-			<Longitude d:type="sFloat64" d:alt_encoding="000000A0DDED3040" d:precision="string">16.9292</Longitude>
-			<Latitude d:type="sFloat64" d:alt_encoding="000000805A094940" d:precision="string">50.0731</Latitude>
-			<Height d:type="sFloat32" d:alt_encoding="000000809BB67840" d:precision="string">395.413</Height>
-			<PlayerDriver d:type="bool">0</PlayerDriver>
-		</sDriverFrontEndDetails>
-		<sDriverFrontEndDetails d:id="1228165680">
-			<ServiceName>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString">Service3</English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">15441e48-687c-4ffa-a2c9-722807efe8c5</Key>
-				</Localisation-cUserLocalisedString>
-			</ServiceName>
-			<LocoName>
-				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString">CD 749 264-8</English>
-					<French d:type="cDeltaString"></French>
-					<Italian d:type="cDeltaString"></Italian>
-					<German d:type="cDeltaString"></German>
-					<Spanish d:type="cDeltaString"></Spanish>
-					<Dutch d:type="cDeltaString"></Dutch>
-					<Polish d:type="cDeltaString"></Polish>
-					<Russian d:type="cDeltaString"></Russian>
-					<Other/>
-					<Key d:type="cDeltaString">4d0ad63f-18a0-4823-8445-3287f57066ae</Key>
-				</Localisation-cUserLocalisedString>
-			</LocoName>
-			<LocoBP>
-				<iBlueprintLibrary-cAbsoluteBlueprintID>
-					<BlueprintSetID>
-						<iBlueprintLibrary-cBlueprintSetID>
-							<Provider d:type="cDeltaString">CS_addon</Provider>
-							<Product d:type="cDeltaString">Pikku</Product>
-						</iBlueprintLibrary-cBlueprintSetID>
-					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">MotoroveLokomotivy\CD749264\cd749264.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</LocoBP>
 			<StartLocation>
@@ -466,13 +218,199 @@
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">CS_addon</LocoAuthor>
-			<FilePath d:type="cDeltaString">CS_addon\Pikku\MotoroveLokomotivy\CD749264</FilePath>
-			<Longitude d:type="sFloat64" d:alt_encoding="00000000F8ED3040" d:precision="string">16.9296</Longitude>
-			<Latitude d:type="sFloat64" d:alt_encoding="0000004034094940" d:precision="string">50.0719</Latitude>
-			<Height d:type="sFloat32" d:alt_encoding="00000060CFB27840" d:precision="string">395.176</Height>
+			<FilePath d:type="cDeltaString">CS_addon\Pikku\MotoroveLokomotivy\CD749008</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="00000040F8ED3040" d:precision="string">16.9296</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="0000006033094940" d:precision="string">50.0719</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="00000020ADB27840" d:precision="string">395.167</Height>
 			<PlayerDriver d:type="bool">0</PlayerDriver>
 		</sDriverFrontEndDetails>
-		<sDriverFrontEndDetails d:id="1228163608">
+		<sDriverFrontEndDetails d:id="1204220376">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Service4</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">030b6325-9c7e-488d-a46e-3a24e21f4460</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">CD 810 560-3</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">729a1fac-2d38-4ac8-9592-ba0e15da57b6</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">CS_addon</Provider>
+							<Product d:type="cDeltaString">Pikku</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">MotoroveVozy\CD810560\CD810560.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Ostruzna - kolej 3</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">16f9ceba-3772-4023-afc5-d332f0363745</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">CS_addon</LocoAuthor>
+			<FilePath d:type="cDeltaString">CS_addon\Pikku\MotoroveVozy\CD810560</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="000000C00C0D3140" d:precision="string">17.051</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="000000407C174940" d:precision="string">50.1835</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="00000080C64F8640" d:precision="string">713.972</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="1204222744">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Service2</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">cad93bde-a4fa-4638-8bf7-7d1193b7e1a9</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">CD 749 264-8</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">4a6e74cc-3272-4842-b110-91bacea77cb2</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">CS_addon</Provider>
+							<Product d:type="cDeltaString">Pikku</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">MotoroveLokomotivy\CD749264\cd749264.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Horni_Lipova - kolej 1</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">f913a4be-0ebd-4c2d-b43e-14df7302ec80</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">CS_addon</LocoAuthor>
+			<FilePath d:type="cDeltaString">CS_addon\Pikku\MotoroveLokomotivy\CD749264</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="000000A052153140" d:precision="string">17.0833</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="00000040C01C4940" d:precision="string">50.2246</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="00000080F6F38240" d:precision="string">606.495</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="1204214160">
+			<ServiceName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Service3</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">71cb065c-5b41-4335-9b06-8ce9decf55fc</Key>
+				</Localisation-cUserLocalisedString>
+			</ServiceName>
+			<LocoName>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">CD 754 044-6</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">ac6ccb9c-f0d8-481f-a2d0-3934179a0842</Key>
+				</Localisation-cUserLocalisedString>
+			</LocoName>
+			<LocoBP>
+				<iBlueprintLibrary-cAbsoluteBlueprintID>
+					<BlueprintSetID>
+						<iBlueprintLibrary-cBlueprintSetID>
+							<Provider d:type="cDeltaString">CS_addon</Provider>
+							<Product d:type="cDeltaString">OJanis</Product>
+						</iBlueprintLibrary-cBlueprintSetID>
+					</BlueprintSetID>
+					<BlueprintID d:type="cDeltaString">MotoroveLokomotivy\CD754044\CD754044.xml</BlueprintID>
+				</iBlueprintLibrary-cAbsoluteBlueprintID>
+			</LocoBP>
+			<StartLocation>
+				<Localisation-cUserLocalisedString>
+					<English d:type="cDeltaString">Horni_Lipova - kolej 2</English>
+					<French d:type="cDeltaString"></French>
+					<Italian d:type="cDeltaString"></Italian>
+					<German d:type="cDeltaString"></German>
+					<Spanish d:type="cDeltaString"></Spanish>
+					<Dutch d:type="cDeltaString"></Dutch>
+					<Polish d:type="cDeltaString"></Polish>
+					<Russian d:type="cDeltaString"></Russian>
+					<Other/>
+					<Key d:type="cDeltaString">7dddd0c5-590b-4fed-ac3c-f63269a3e044</Key>
+				</Localisation-cUserLocalisedString>
+			</StartLocation>
+			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
+			<LocoAuthor d:type="cDeltaString">CS_addon</LocoAuthor>
+			<FilePath d:type="cDeltaString">CS_addon\OJanis\MotoroveLokomotivy\CD754044</FilePath>
+			<Longitude d:type="sFloat64" d:alt_encoding="000000E0A0153140" d:precision="string">17.0845</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="000000C0BC1C4940" d:precision="string">50.2245</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000E0C3F58240" d:precision="string">606.721</Height>
+			<PlayerDriver d:type="bool">0</PlayerDriver>
+		</sDriverFrontEndDetails>
+		<sDriverFrontEndDetails d:id="1204215640">
 			<ServiceName>
 				<Localisation-cUserLocalisedString>
 					<English d:type="cDeltaString">Service1</English>
@@ -484,7 +422,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">228d00d2-424c-4dfe-8de4-5ffacbd6b8c2</Key>
+					<Key d:type="cDeltaString">a31459c6-f62a-4c57-a61f-b09862c2cc5f</Key>
 				</Localisation-cUserLocalisedString>
 			</ServiceName>
 			<LocoName>
@@ -498,7 +436,7 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">dd6dcb44-7fb0-4d27-b6da-afb7b9fb3bc0</Key>
+					<Key d:type="cDeltaString">ba596270-dceb-42be-87d3-3ce9e6dfc7be</Key>
 				</Localisation-cUserLocalisedString>
 			</LocoName>
 			<LocoBP>
@@ -514,7 +452,7 @@
 			</LocoBP>
 			<StartLocation>
 				<Localisation-cUserLocalisedString>
-					<English d:type="cDeltaString">Hanusovice - Kolej 10</English>
+					<English d:type="cDeltaString">Horni_Lipova - kolej 4</English>
 					<French d:type="cDeltaString"></French>
 					<Italian d:type="cDeltaString"></Italian>
 					<German d:type="cDeltaString"></German>
@@ -523,73 +461,69 @@
 					<Polish d:type="cDeltaString"></Polish>
 					<Russian d:type="cDeltaString"></Russian>
 					<Other/>
-					<Key d:type="cDeltaString">f31dade2-a231-4b39-8845-8b00c3a72498</Key>
+					<Key d:type="cDeltaString">3edac35c-c203-4550-b799-a68ac35fc012</Key>
 				</Localisation-cUserLocalisedString>
 			</StartLocation>
 			<LocoClass d:type="cDeltaString">LOCO_CLASS_DIESEL</LocoClass>
 			<LocoAuthor d:type="cDeltaString">CS_addon</LocoAuthor>
 			<FilePath d:type="cDeltaString">CS_addon\Pikku\MotoroveLokomotivy\CD749</FilePath>
-			<Longitude d:type="sFloat64" d:alt_encoding="00000040DFED3040" d:precision="string">16.9292</Longitude>
-			<Latitude d:type="sFloat64" d:alt_encoding="0000000033094940" d:precision="string">50.0719</Latitude>
-			<Height d:type="sFloat32" d:alt_encoding="0000006064B27840" d:precision="string">395.15</Height>
+			<Longitude d:type="sFloat64" d:alt_encoding="00000000D3153140" d:precision="string">17.0853</Longitude>
+			<Latitude d:type="sFloat64" d:alt_encoding="00000060B51C4940" d:precision="string">50.2243</Latitude>
+			<Height d:type="sFloat32" d:alt_encoding="000000A04EF78240" d:precision="string">606.913</Height>
 			<PlayerDriver d:type="bool">0</PlayerDriver>
 		</sDriverFrontEndDetails>
 	</FrontEndDriverList>
 	<RequiredSet>
-		<iBlueprintLibrary-cBlueprintSetID d:id="1094321920">
+		<iBlueprintLibrary-cBlueprintSetID d:id="698551200">
 			<Provider d:type="cDeltaString">CS_addon</Provider>
-			<Product d:type="cDeltaString">DavidJavurek</Product>
+			<Product d:type="cDeltaString">Glocky</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="1094321928">
+		<iBlueprintLibrary-cBlueprintSetID d:id="698551208">
 			<Provider d:type="cDeltaString">CS_addon</Provider>
 			<Product d:type="cDeltaString">Kebarko</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="1094321936">
+		<iBlueprintLibrary-cBlueprintSetID d:id="698551216">
 			<Provider d:type="cDeltaString">CS_addon</Provider>
 			<Product d:type="cDeltaString">OJanis</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="1094321944">
+		<iBlueprintLibrary-cBlueprintSetID d:id="698551224">
 			<Provider d:type="cDeltaString">CS_addon</Provider>
 			<Product d:type="cDeltaString">Pikku</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="1094321952">
+		<iBlueprintLibrary-cBlueprintSetID d:id="698551232">
 			<Provider d:type="cDeltaString">CZ_objects</Provider>
 			<Product d:type="cDeltaString">CD_Addon</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="1094321960">
+		<iBlueprintLibrary-cBlueprintSetID d:id="698551240">
 			<Provider d:type="cDeltaString">Hekl</Provider>
 			<Product d:type="cDeltaString">RailVehicles</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="1094321968">
+		<iBlueprintLibrary-cBlueprintSetID d:id="698551248">
 			<Provider d:type="cDeltaString">Kank</Provider>
 			<Product d:type="cDeltaString">Nakladni vozy</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="1094321976">
-			<Provider d:type="cDeltaString">Smejki</Provider>
-			<Product d:type="cDeltaString">CD714</Product>
-		</iBlueprintLibrary-cBlueprintSetID>
 	</RequiredSet>
 	<Gizmo>
-		<cOwnedEntity d:id="700067408">
+		<cOwnedEntity d:id="702965552">
 			<Component>
-				<cEditorSceneryRender d:id="722258728">
+				<cEditorSceneryRender d:id="711784360">
 					<DetailLevel d:type="sInt32">10</DetailLevel>
 					<Global d:type="bool">0</Global>
 					<Saved d:type="bool">1</Saved>
-					<Palette0Index d:type="sUInt8">0</Palette0Index>
-					<Palette1Index d:type="sUInt8">0</Palette1Index>
-					<Palette2Index d:type="sUInt8">0</Palette2Index>
+					<Palette0Index d:type="sUInt8">11</Palette0Index>
+					<Palette1Index d:type="sUInt8">70</Palette1Index>
+					<Palette2Index d:type="sUInt8">188</Palette2Index>
 				</cEditorSceneryRender>
-				<cPosOri d:id="700066928">
+				<cPosOri d:id="702963752">
 					<Scale d:numElements="4" d:elementType="sFloat32" d:precision="string">1.0000000 1.0000000 1.0000000 0.0000000</Scale>
 					<RFarMatrix>
-						<cFarMatrix d:id="700066952">
-							<Height d:type="sFloat32" d:alt_encoding="0000008068278340" d:precision="string">612.926</Height>
-							<RXAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">-0.0467158 0.0000000 0.9989083 0.0000000</RXAxis>
+						<cFarMatrix d:id="702963776">
+							<Height d:type="sFloat32" d:alt_encoding="00000060E7248340" d:precision="string">612.613</Height>
+							<RXAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.4055552 0.0000000 -0.9140707 0.0000000</RXAxis>
 							<RYAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.0000000 1.0000000 0.0000000 0.0000000</RYAxis>
-							<RZAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">-0.9989083 0.0000000 -0.0467158 0.0000000</RZAxis>
+							<RZAxis d:numElements="4" d:elementType="sFloat32" d:precision="string">0.9140705 -0.0000000 0.4055552 0.0000000</RZAxis>
 							<RFarPosition>
-								<cFarVector2 d:id="700067004">
+								<cFarVector2 d:id="702963828">
 									<X>
 										<cFarCoordinate>
 											<RouteCoordinate>
@@ -599,7 +533,7 @@
 											</RouteCoordinate>
 											<TileCoordinate>
 												<cTileCoordinate>
-													<Distance d:type="sFloat32" d:alt_encoding="00000060913F7340" d:precision="string">307.973</Distance>
+													<Distance d:type="sFloat32" d:alt_encoding="000000A0C4327240" d:precision="string">291.173</Distance>
 												</cTileCoordinate>
 											</TileCoordinate>
 										</cFarCoordinate>
@@ -613,7 +547,7 @@
 											</RouteCoordinate>
 											<TileCoordinate>
 												<cTileCoordinate>
-													<Distance d:type="sFloat32" d:alt_encoding="000000A099BD8040" d:precision="string">535.7</Distance>
+													<Distance d:type="sFloat32" d:alt_encoding="00000020D9118140" d:precision="string">546.231</Distance>
 												</cTileCoordinate>
 											</TileCoordinate>
 										</cFarCoordinate>
@@ -623,7 +557,7 @@
 						</cFarMatrix>
 					</RFarMatrix>
 				</cPosOri>
-				<cScriptComponent d:id="717515136">
+				<cScriptComponent d:id="716536488">
 					<DebugDisplay d:type="bool">1</DebugDisplay>
 					<StateName d:type="cDeltaString"></StateName>
 				</cScriptComponent>
@@ -654,10 +588,10 @@
 			<EntityID>
 				<cGUID>
 					<UUID>
-						<e d:type="sUInt64">5043508975069444590</e>
-						<e d:type="sUInt64">8500693007535881919</e>
+						<e d:type="sUInt64">5182429769331396162</e>
+						<e d:type="sUInt64">4762704296938970505</e>
 					</UUID>
-					<DevString d:type="cDeltaString">f08239ee-24b0-45fe-bfbe-d2724087f875</DevString>
+					<DevString d:type="cDeltaString">e2684e42-b06a-47eb-891d-46fd52861842</DevString>
 				</cGUID>
 			</EntityID>
 		</cOwnedEntity>
@@ -668,120 +602,87 @@
 	<Author d:type="cDeltaString"></Author>
 	<DispatcherVersion d:type="cDeltaString">V1</DispatcherVersion>
 	<RBlueprintSetPreLoad>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494384">
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803088">
+			<Provider d:type="cDeltaString">Smekac</Provider>
+			<Product d:type="cDeltaString">Doplnky</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803096">
 			<Provider d:type="cDeltaString">Kank</Provider>
 			<Product d:type="cDeltaString">Nakladni vozy</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494392">
-			<Provider d:type="cDeltaString">Pikku</Provider>
-			<Product d:type="cDeltaString">Vehicles</Product>
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803104">
+			<Provider d:type="cDeltaString">Dem</Provider>
+			<Product d:type="cDeltaString">Osobni vozy</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494400">
-			<Provider d:type="cDeltaString">CS_addon</Provider>
-			<Product d:type="cDeltaString">Pikku</Product>
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803112">
+			<Provider d:type="cDeltaString">Hekl</Provider>
+			<Product d:type="cDeltaString">Addon</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494408">
-			<Provider d:type="cDeltaString">CS_addon</Provider>
-			<Product d:type="cDeltaString">Roman72</Product>
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803120">
+			<Provider d:type="cDeltaString">Hekl</Provider>
+			<Product d:type="cDeltaString">RailVehicles</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494416">
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803128">
+			<Provider d:type="cDeltaString">Kiski</Provider>
+			<Product d:type="cDeltaString">RailVehicles</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803136">
 			<Provider d:type="cDeltaString">CS_addon</Provider>
 			<Product d:type="cDeltaString">DavidJavurek</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494424">
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803144">
 			<Provider d:type="cDeltaString">CS_addon</Provider>
-			<Product d:type="cDeltaString">Hekl</Product>
+			<Product d:type="cDeltaString">Glocky</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494432">
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803152">
+			<Provider d:type="cDeltaString">CS_addon</Provider>
+			<Product d:type="cDeltaString">Kank</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803160">
+			<Provider d:type="cDeltaString">Pikku</Provider>
+			<Product d:type="cDeltaString">Vehicles</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803168">
 			<Provider d:type="cDeltaString">CS_addon</Provider>
 			<Product d:type="cDeltaString">Kal000px</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494440">
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803176">
 			<Provider d:type="cDeltaString">CS_addon</Provider>
-			<Product d:type="cDeltaString">Smejki</Product>
+			<Product d:type="cDeltaString">Roman72</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494448">
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803184">
+			<Provider d:type="cDeltaString">Smejki</Provider>
+			<Product d:type="cDeltaString">Railvehicles</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803192">
+			<Provider d:type="cDeltaString">Andi_M</Provider>
+			<Product d:type="cDeltaString">CD</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803200">
 			<Provider d:type="cDeltaString">CS_addon</Provider>
-			<Product d:type="cDeltaString">Svec</Product>
+			<Product d:type="cDeltaString">Hekl</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494456">
-			<Provider d:type="cDeltaString">CS_addon</Provider>
-			<Product d:type="cDeltaString">Skura</Product>
-		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494464">
-			<Provider d:type="cDeltaString">Sasule</Provider>
-			<Product d:type="cDeltaString">CS_Addon</Product>
-		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494472">
-			<Provider d:type="cDeltaString">CS_addon</Provider>
-			<Product d:type="cDeltaString">Mates</Product>
-		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494480">
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803208">
 			<Provider d:type="cDeltaString">CS_addon</Provider>
 			<Product d:type="cDeltaString">OJanis</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
-		<iBlueprintLibrary-cBlueprintSetID d:id="705494488">
-			<Provider d:type="cDeltaString">Smejki</Provider>
-			<Product d:type="cDeltaString">CD714</Product>
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803216">
+			<Provider d:type="cDeltaString">CS_addon</Provider>
+			<Product d:type="cDeltaString">Smejki</Product>
+		</iBlueprintLibrary-cBlueprintSetID>
+		<iBlueprintLibrary-cBlueprintSetID d:id="708803224">
+			<Provider d:type="cDeltaString">CS_addon</Provider>
+			<Product d:type="cDeltaString">Mates</Product>
 		</iBlueprintLibrary-cBlueprintSetID>
 	</RBlueprintSetPreLoad>
-	<NamedEntity>
-		<cScenarioProperties-cGuidToNameMapping d:id="718732336">
-			<Guid>
-				<cGUID>
-					<UUID>
-						<e d:type="sUInt64">5384450533749192510</e>
-						<e d:type="sUInt64">6130435348508350902</e>
-					</UUID>
-					<DevString d:type="cDeltaString">7ec8773e-693b-4ab9-b699-561278ae1355</DevString>
-				</cGUID>
-			</Guid>
-			<Name d:type="cDeltaString">Horni_Lipova - kolej 1</Name>
-		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="718732576">
-			<Guid>
-				<cGUID>
-					<UUID>
-						<e d:type="sUInt64">4829287550179871268</e>
-						<e d:type="sUInt64">12303695162840312467</e>
-					</UUID>
-					<DevString d:type="cDeltaString">b2b00a24-1370-4305-93ea-c9159081bfaa</DevString>
-				</cGUID>
-			</Guid>
-			<Name d:type="cDeltaString">Horni_Lipova - kolej 2</Name>
-		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="718733896">
-			<Guid>
-				<cGUID>
-					<UUID>
-						<e d:type="sUInt64">5161924687879970727</e>
-						<e d:type="sUInt64">14418691375253278084</e>
-					</UUID>
-					<DevString d:type="cDeltaString">92679fa7-d727-47a2-84cd-f58b697b19c8</DevString>
-				</cGUID>
-			</Guid>
-			<Name d:type="cDeltaString">Horni_Lipova - kolej 3</Name>
-		</cScenarioProperties-cGuidToNameMapping>
-		<cScenarioProperties-cGuidToNameMapping d:id="718733736">
-			<Guid>
-				<cGUID>
-					<UUID>
-						<e d:type="sUInt64">5478461844140020573</e>
-						<e d:type="sUInt64">4584984913670493887</e>
-					</UUID>
-					<DevString d:type="cDeltaString">677f535d-6805-4c07-bfd6-da977c23a13f</DevString>
-				</cGUID>
-			</Guid>
-			<Name d:type="cDeltaString">Horni_Lipova - kolej 4</Name>
-		</cScenarioProperties-cGuidToNameMapping>
-	</NamedEntity>
+	<NamedEntity/>
 	<Condition/>
 	<DeferredEvent/>
 	<CheckedCondition/>
 	<CareerRules>
 		<d:nil/>
 	</CareerRules>
-	<MD5 d:type="cDeltaString">BB968F47B8653CE721E80A37A47F193C</MD5>
+	<MD5 d:type="cDeltaString">408EEE26A5116FA02D1DFF2207398CCC</MD5>
 	<MessageEvent/>
 	<SimpleControlsOnly d:type="bool">0</SimpleControlsOnly>
 	<ExpertControlsOnly d:type="bool">0</ExpertControlsOnly>
