@@ -29,10 +29,10 @@
 			<BlueprintSetID>
 				<iBlueprintLibrary-cBlueprintSetID>
 					<Provider d:type="cDeltaString">CS_addon</Provider>
-					<Product d:type="cDeltaString">Trat292</Product>
+					<Product d:type="cDeltaString">PrahaBenesov</Product>
 				</iBlueprintLibrary-cBlueprintSetID>
 			</BlueprintSetID>
-			<BlueprintID d:type="cDeltaString">TemplateRoutes\Trat292.xml</BlueprintID>
+			<BlueprintID d:type="cDeltaString">TemplateRoutes\PrahaBenesov.xml</BlueprintID>
 		</iBlueprintLibrary-cAbsoluteBlueprintID>
 	</BlueprintID>
 	<Skies>
@@ -42,10 +42,10 @@
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
 							<Provider d:type="cDeltaString">CS_addon</Provider>
-							<Product d:type="cDeltaString">Trat292</Product>
+							<Product d:type="cDeltaString">Hekl</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">TimeOfDay\Jaro.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">TimeOfDay\CS_jar.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</SpringSkyBlueprint>
 			<SummerSkyBlueprint>
@@ -53,10 +53,10 @@
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
 							<Provider d:type="cDeltaString">CS_addon</Provider>
-							<Product d:type="cDeltaString">Trat292</Product>
+							<Product d:type="cDeltaString">Hekl</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">TimeOfDay\Leto.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">TimeOfDay\CS_leto.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</SummerSkyBlueprint>
 			<AutumnSkyBlueprint>
@@ -64,10 +64,10 @@
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
 							<Provider d:type="cDeltaString">CS_addon</Provider>
-							<Product d:type="cDeltaString">Trat292</Product>
+							<Product d:type="cDeltaString">Hekl</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">TimeOfDay\Podzim.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">TimeOfDay\CS_jesen.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</AutumnSkyBlueprint>
 			<WinterSkyBlueprint>
@@ -75,10 +75,10 @@
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
 							<Provider d:type="cDeltaString">CS_addon</Provider>
-							<Product d:type="cDeltaString">Trat292</Product>
+							<Product d:type="cDeltaString">Hekl</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">TimeOfDay\Zima.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">TimeOfDay\CS_zima.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</WinterSkyBlueprint>
 		</cRouteBlueprint-sSkies>
@@ -88,10 +88,10 @@
 			<BlueprintSetID>
 				<iBlueprintLibrary-cBlueprintSetID>
 					<Provider d:type="cDeltaString">CS_addon</Provider>
-					<Product d:type="cDeltaString">Trat292</Product>
+					<Product d:type="cDeltaString">Hekl</Product>
 				</iBlueprintLibrary-cBlueprintSetID>
 			</BlueprintSetID>
-			<BlueprintID d:type="cDeltaString">Weather\oblacno.xml</BlueprintID>
+			<BlueprintID d:type="cDeltaString">Weather\blueprint\CS_skorojasno.xml</BlueprintID>
 		</iBlueprintLibrary-cAbsoluteBlueprintID>
 	</WeatherBlueprint>
 	<TerrainBlueprint>
@@ -99,10 +99,10 @@
 			<BlueprintSetID>
 				<iBlueprintLibrary-cBlueprintSetID>
 					<Provider d:type="cDeltaString">CS_addon</Provider>
-					<Product d:type="cDeltaString">Trat292</Product>
+					<Product d:type="cDeltaString">TerTex</Product>
 				</iBlueprintLibrary-cBlueprintSetID>
 			</BlueprintSetID>
-			<BlueprintID d:type="cDeltaString">Environment\Terrain\Terrain.xml</BlueprintID>
+			<BlueprintID d:type="cDeltaString">CS_Texturing.xml</BlueprintID>
 		</iBlueprintLibrary-cAbsoluteBlueprintID>
 	</TerrainBlueprint>
 	<MapBlueprint>
@@ -116,12 +116,12 @@
 			<BlueprintID d:type="cDeltaString"></BlueprintID>
 		</iBlueprintLibrary-cAbsoluteBlueprintID>
 	</MapBlueprint>
-	<LockCounter d:type="sUInt32">3</LockCounter>
+	<LockCounter d:type="sUInt32">5</LockCounter>
 	<Locked d:type="bool">0</Locked>
 	<MapProjection>
-		<cMapProjectionOwner d:id="125235184">
+		<cMapProjectionOwner d:id="705650256">
 			<MapProjection>
-				<cUTMMapProjection d:id="782116056">
+				<cUTMMapProjection d:id="715360264">
 					<Origin>
 						<sGeoPosition>
 							<Lat d:type="sFloat64" d:alt_encoding="ACADD85F76174940" d:precision="string">50.1833</Lat>
