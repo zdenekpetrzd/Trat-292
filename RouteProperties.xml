@@ -29,10 +29,10 @@
 			<BlueprintSetID>
 				<iBlueprintLibrary-cBlueprintSetID>
 					<Provider d:type="cDeltaString">CS_addon</Provider>
-					<Product d:type="cDeltaString">Trat292</Product>
+					<Product d:type="cDeltaString">Kal000px</Product>
 				</iBlueprintLibrary-cBlueprintSetID>
 			</BlueprintSetID>
-			<BlueprintID d:type="cDeltaString">TemplateRoutes\Trat292.xml</BlueprintID>
+			<BlueprintID d:type="cDeltaString">TemplateRoutes\Trat230.xml</BlueprintID>
 		</iBlueprintLibrary-cAbsoluteBlueprintID>
 	</BlueprintID>
 	<Skies>
@@ -42,10 +42,10 @@
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
 							<Provider d:type="cDeltaString">CS_addon</Provider>
-							<Product d:type="cDeltaString">Trat292</Product>
+							<Product d:type="cDeltaString">Kal000px</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">TimeOfDay\Jaro.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">TimeOfDay\jaro.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</SpringSkyBlueprint>
 			<SummerSkyBlueprint>
@@ -53,10 +53,10 @@
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
 							<Provider d:type="cDeltaString">CS_addon</Provider>
-							<Product d:type="cDeltaString">Trat292</Product>
+							<Product d:type="cDeltaString">Kal000px</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">TimeOfDay\Leto.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">TimeOfDay\leto.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</SummerSkyBlueprint>
 			<AutumnSkyBlueprint>
@@ -64,10 +64,10 @@
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
 							<Provider d:type="cDeltaString">CS_addon</Provider>
-							<Product d:type="cDeltaString">Trat292</Product>
+							<Product d:type="cDeltaString">Kal000px</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">TimeOfDay\Podzim.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">TimeOfDay\podzim.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</AutumnSkyBlueprint>
 			<WinterSkyBlueprint>
@@ -75,10 +75,10 @@
 					<BlueprintSetID>
 						<iBlueprintLibrary-cBlueprintSetID>
 							<Provider d:type="cDeltaString">CS_addon</Provider>
-							<Product d:type="cDeltaString">Trat292</Product>
+							<Product d:type="cDeltaString">Kal000px</Product>
 						</iBlueprintLibrary-cBlueprintSetID>
 					</BlueprintSetID>
-					<BlueprintID d:type="cDeltaString">TimeOfDay\Zima.xml</BlueprintID>
+					<BlueprintID d:type="cDeltaString">TimeOfDay\zima.xml</BlueprintID>
 				</iBlueprintLibrary-cAbsoluteBlueprintID>
 			</WinterSkyBlueprint>
 		</cRouteBlueprint-sSkies>
@@ -88,10 +88,10 @@
 			<BlueprintSetID>
 				<iBlueprintLibrary-cBlueprintSetID>
 					<Provider d:type="cDeltaString">CS_addon</Provider>
-					<Product d:type="cDeltaString">Trat292</Product>
+					<Product d:type="cDeltaString">Kal000px</Product>
 				</iBlueprintLibrary-cBlueprintSetID>
 			</BlueprintSetID>
-			<BlueprintID d:type="cDeltaString">Weather\oblacno.xml</BlueprintID>
+			<BlueprintID d:type="cDeltaString">Weather\skorojasno.xml</BlueprintID>
 		</iBlueprintLibrary-cAbsoluteBlueprintID>
 	</WeatherBlueprint>
 	<TerrainBlueprint>
