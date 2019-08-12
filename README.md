@@ -1,1 +1,2 @@
-# 74fa42a9-9bf1-43b1-b649-a1284dced266
+# Trať 292 pro Train Simulator 2019
+Česká trať vedoucí z Hanušovic do Jeseníku. Jedná se o addon pro hru Raiworks.
