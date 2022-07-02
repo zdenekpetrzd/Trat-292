@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cRecordSet xmlns:d="http://www.kuju.com/TnT/2003/Delta" d:version="1.0" d:id="783554752">
+	<Record>
+		<Network-cLoftNetwork d:id="1215300472">
+			<NetworkID>
+				<cGUID>
+					<UUID>
+						<e d:type="sUInt64">4711830345384234505</e>
+						<e d:type="sUInt64">8153473335745312930</e>
+					</UUID>
+					<DevString d:type="cDeltaString">1a888e09-c8bc-4163-a2f8-b7c6ccf42671</DevString>
+				</cGUID>
+			</NetworkID>
+		</Network-cLoftNetwork>
+	</Record>
+</cRecordSet>
